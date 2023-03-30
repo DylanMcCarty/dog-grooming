@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-grooming/static/css/main.cabfcdf8.css",
+    "main.js": "/dog-grooming/static/js/main.fafa66ce.js",
+    "index.html": "/dog-grooming/index.html",
+    "main.cabfcdf8.css.map": "/dog-grooming/static/css/main.cabfcdf8.css.map",
+    "main.fafa66ce.js.map": "/dog-grooming/static/js/main.fafa66ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cabfcdf8.css",
+    "static/js/main.fafa66ce.js"
+  ]
+}
