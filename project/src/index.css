@@ -1,0 +1,14 @@
+#Logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+.navbar {
+    border-radius: 15px;
+    background: #D95F47;
+}
+
