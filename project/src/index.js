@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -16,7 +16,7 @@ import Pricing from './components/Pricing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />}/>
@@ -25,5 +25,5 @@ root.render(
         <Route path='aboutme' element={<AboutMe />}/>
       </Route>
     </Routes>
-  </Router>
+  </HashRouter>
 );
